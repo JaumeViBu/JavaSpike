@@ -6,5 +6,8 @@
 
     <bean id="calculatorService" class="org.firstSpring.CalculatorService">
     </bean>
-
+    <bean id="gestorFacturas" class="org.firstSpring.GestorFacturas">
+        <constructor-arg name="calculatorService" ref="calculatorService"/>
+        <constructor-arg name="nombre" value="Facturator 3000"/>
+    </bean>
 </beans>
