@@ -8,4 +8,4 @@ Inside this repo:
 
 - firstSpring (Spring Openbootcamp - lesson 1)
   - helloWorld using beans without Spring boot
-  - [x] Autoscan implemented
+  - Autoscan implemented
