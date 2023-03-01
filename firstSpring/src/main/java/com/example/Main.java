@@ -1,7 +1,8 @@
-package org.firstSpring;
+package com.example;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -22,5 +23,6 @@ public class Main {
         GestorFacturas gestor=(GestorFacturas) context.getBean("gestorFacturas");
 
         System.out.println(gestor.calculatorService.holaMundo());
+        System.out.println(gestor.nombre);
     }
 }
